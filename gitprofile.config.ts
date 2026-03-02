@@ -13,7 +13,7 @@ const CONFIG = {
   projects: {
     github: {
       display: true, // Display GitHub projects?
-      header: 'Github Projects',
+      header: '깃허브 프로젝트',
       mode: 'automatic', // Mode can be: 'automatic' or 'manual'
       automatic: {
         sortBy: 'stars', // Sort projects by 'stars' or 'updated'
@@ -29,21 +29,21 @@ const CONFIG = {
       },
     },
     external: {
-      header: 'My Projects',
+      header: '내 프로젝트',
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
-          title: 'Project Name',
+          title: '프로젝트 이름',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            '어떤 프로젝트인지 자세한 설명을 여기에 한글로 작성합니다.',
           imageUrl:
             'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
           link: 'https://example.com',
         },
         {
-          title: 'Project Name',
+          title: '프로젝트 이름',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            '프로젝트 관련 추가 설명을 이곳에 작성할 수 있습니다.',
           imageUrl:
             'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
           link: 'https://example.com',
@@ -51,7 +51,7 @@ const CONFIG = {
       ],
     },
   },
-  seo: { title: 'Portfolio of chip-cookie', description: '', imageURL: '' },
+  seo: { title: 'chip-cookie의 포트폴리오', description: '', imageURL: '' },
   social: {
     linkedin: '',
     x: '',
@@ -96,60 +96,60 @@ const CONFIG = {
   ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
-      to: 'Present',
+      company: 'OO 회사',
+      position: '어떤 직무를 맡았는지 입력하세요',
+      from: '2021년 9월',
+      to: '현재',
       companyLink: 'https://example.com',
     },
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
+      company: 'XX 회사',
+      position: '이전 직무',
+      from: '2019년 7월',
+      to: '2021년 8월',
       companyLink: 'https://example.com',
     },
   ],
   certifications: [
     {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
+      name: '정보처리기사 (예시)',
+      body: '한국산업인력공단 발행 (예시)',
+      year: '2022년 3월',
       link: 'https://example.com',
     },
   ],
   educations: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
+      institution: '경운대학교 ',
+      degree: '에너지소재공학 학사',
+      from: '2018',
+      to: '2024',
     },
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
+      institution: '대전 고등학교',
+      degree: '인문계 졸업',
+      from: '2015',
+      to: '2018',
     },
   ],
   publications: [
     {
-      title: 'Publication Title',
+      title: '논문 또는 출판물 제목',
       conferenceName: '',
-      journalName: 'Journal Name',
-      authors: 'John Doe, Jane Smith',
+      journalName: '저널 이름',
+      authors: '홍길동, 김철수',
       link: 'https://example.com',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+        '논문이나 출판물에 대한 상세한 한글 설명과 요약을 이 곳에 작성합니다.',
     },
     {
-      title: 'Publication Title',
-      conferenceName: 'Conference Name',
+      title: '발표한 출판물 제목',
+      conferenceName: '컨퍼런스 이름',
       journalName: '',
-      authors: 'John Doe, Jane Smith',
+      authors: '홍길동, 박영희',
       link: 'https://example.com',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+        '작성한 출판물에 대한 상세한 한글 설명과 요약을 이 곳에 작성합니다.',
     },
   ],
   // Display articles from your medium or dev account. (Optional)
@@ -219,11 +219,11 @@ const CONFIG = {
   },
 
   // Optional Footer. Supports plain text or HTML.
-  footer: `Made with <a 
-      class="text-primary" href="https://github.com/arifszn/gitprofile"
+  footer: `<a 
+      class="text-primary" href="https://github.com/chip-cookie/gitprofile"
       target="_blank"
       rel="noreferrer"
-    >GitProfile</a> and ❤️`,
+    >Made with GitProfile and ❤️ by chip-cookie</a>`,
 
   enablePWA: true,
 };
