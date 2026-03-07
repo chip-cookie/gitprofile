@@ -33,19 +33,17 @@ const CONFIG = {
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
-          title: '프로젝트 이름',
+          title: 'ESG-AI-Agent',
           description:
-            '어떤 프로젝트인지 자세한 설명을 여기에 한글로 작성합니다.',
-          imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
+            'ESG Insight Agent는 건설사를 위한 ESG 업무 자동화 AI 시스템으로.',
+          imageUrl: '/ESG Insight Agent.png',
           link: 'https://example.com',
         },
         {
-          title: '프로젝트 이름',
+          title: 'Carbon Strategic OS',
           description:
-            '프로젝트 관련 추가 설명을 이곳에 작성할 수 있습니다.',
-          imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
+            'AI 기반 탄소 배출 관리 및 전략적 의사결정 지원 플랫폼 서비스 구현.',
+          imageUrl: '/ESG Carbon Dashboard (Carbon Strategic OS).png',
           link: 'https://example.com',
         },
       ],
