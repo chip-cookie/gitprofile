@@ -46,6 +46,13 @@ const CONFIG = {
           imageUrl: '/ESG Carbon Dashboard (Carbon Strategic OS).png',
           link: 'https://example.com',
         },
+        {
+          title: 'F1-LLM Chatbot',
+          description:
+            ' F1 레이스 데이터를 기반으로 질문에 답변하는 RAG(Retrieval-Augmented Generation) 시스템입니다. PDF 문서에서 정보를 추출하여 벡터 인덱스를 생성하고, OpenAI의 GPT 모델을 사용하여 답변 생성.',
+          imageUrl: '/f1-LLM chat bot.PNG',
+          link: 'https://example.com',
+        }
       ],
     },
   },
@@ -99,7 +106,7 @@ const CONFIG = {
   ],
   experiences: [
     {
-      company: 'OO 회사',
+      company: '두드림 줄눈',
       position: '업무지원',
       from: '2024년 3월',
       to: '2024년 9월',
@@ -136,15 +143,6 @@ const CONFIG = {
       link: 'https://example.com',
       description:
         '논문이나 출판물에 대한 상세한 한글 설명과 요약을 이 곳에 작성합니다.',
-    },
-    {
-      title: '발표한 출판물 제목',
-      conferenceName: '컨퍼런스 이름',
-      journalName: '',
-      authors: '홍길동, 박영희',
-      link: 'https://example.com',
-      description:
-        '작성한 출판물에 대한 상세한 한글 설명과 요약을 이 곳에 작성합니다.',
     },
   ],
   // Display articles from your medium or dev account. (Optional)
