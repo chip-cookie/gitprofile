@@ -36,21 +36,21 @@ const CONFIG = {
           title: 'ESG-AI-Agent',
           description:
             'ESG Insight Agent는 건설사를 위한 ESG 업무 자동화 AI 시스템으로.',
-          imageUrl: '/esg-insight-agent.png',
+          imageUrl: '/gitprofile/esg-insight-agent.png',
           link: 'https://example.com',
         },
         {
           title: 'Carbon Strategic OS',
           description:
             'AI 기반 탄소 배출 관리 및 전략적 의사결정 지원 플랫폼 서비스 구현.',
-          imageUrl: '/carbon-strategic-os.png',
+          imageUrl: '/gitprofile/carbon-strategic-os.png',
           link: 'https://example.com',
         },
         {
           title: 'F1-LLM Chatbot',
           description:
             ' F1 레이스 데이터를 기반으로 질문에 답변하는 RAG(Retrieval-Augmented Generation) 시스템입니다. PDF 문서에서 정보를 추출하여 벡터 인덱스를 생성하고, OpenAI의 GPT 모델을 사용하여 답변 생성.',
-          imageUrl: '/f1-llm-chatbot.png',
+          imageUrl: '/gitprofile/f1-llm-chatbot.png',
           link: 'https://example.com',
         }
       ],
