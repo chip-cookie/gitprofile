@@ -76,8 +76,8 @@ const CONFIG = {
     discord: '',
     telegram: '',
     website: '',
-    phone: '',
-    email: '',
+    phone: '010-8372-2115',
+    email: 'ybw6677@naver.com',
   },
   resume: {
     fileUrl:
