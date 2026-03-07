@@ -134,17 +134,6 @@ const CONFIG = {
       to: '2018',
     },
   ],
-  publications: [
-    {
-      title: '논문 또는 출판물 제목',
-      conferenceName: '',
-      journalName: '저널 이름',
-      authors: '홍길동, 김철수',
-      link: 'https://example.com',
-      description:
-        '논문이나 출판물에 대한 상세한 한글 설명과 요약을 이 곳에 작성합니다.',
-    },
-  ],
   // Display articles from your medium or dev account. (Optional)
   blog: {
     source: 'dev', // medium | dev
